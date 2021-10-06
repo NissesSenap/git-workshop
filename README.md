@@ -1,6 +1,6 @@
 # Workshop instructions
 
-This workshop is created to go through setting up a basic development environment to work with git and markdown.
+This workshop is created to go through setting up a basic development environment to work with git and Markdown.
 It's mostly created for windows users and it's focused on Azure DevOps but with adoptions it should work just fine with GitHub or
 other providers for that matter.
 
@@ -24,7 +24,7 @@ Vscode supports extensions and have a good marketplace to make the available.
 
 ## Markdown
 
-To get a quick overview of markdown look at this document ^^ and check on this link
+To get a quick overview of Markdown look at this document ^^ and check on this link
 [markdownguide.org](https://www.markdownguide.org/cheat-sheet/).
 
 ## Azure DevOps
