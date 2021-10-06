@@ -1,0 +1,21 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+pr:
+  - main
+
+
+stages:
+  - stage: build
+    jobs:
+      - job: lint_tests
+        displayName: Lint Tests
+        pool:
+          vmImage: ubuntu-latest
+        steps:
+        - script: |
+            docker pull github/super-linter:latest
+            docker run -e RUN_LOCAL=true -v $(System.DefaultWorkingDirectory):/tmp/lint github/super-linter
+          displayName: 'Code Scan using GitHub Super-Linter'
