@@ -31,3 +31,12 @@ git config.user.name "First last name"
   - Commit the image
 - Perform a change to the image,
   - git diff, what can you see?
+
+## part 3 pipelines
+
+- Create a Azure DevOps pipeline to trigger on PR:s
+- For inspiration look at [azure-pipelines.yml](azure-pipelines.yml)
+- How to setup a trigger at [PR](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops)
+- Merge azure-pipelines.yml to main
+- Edit some file and create a PR, see that the our pipeline auto triggers
+  - Don't forget to actually create the PR and not just push to a branch

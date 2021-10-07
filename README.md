@@ -27,7 +27,7 @@ Vscode supports extensions and have a good marketplace to make the available.
 To get a quick overview of Markdown look at this document ^^ and check on this link
 [markdownguide.org](https://www.markdownguide.org/cheat-sheet/).
 
-## Azure DevOps
+## Azure DevOps getting started
 
 - Setup a [ssh key](https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azure-devops#set-up-ssh-key-authentication)
 - Add the ssh key to your Azure DevOps [profile](https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azure-devops#step-2--add-the-public-key-to-azure-devops-servicestfs)
@@ -101,3 +101,13 @@ but if you forget this you can always create one after.
 
 To generate a good basic gitignore file that is language specific
 you can use [gitignore.io](gitignore.io).
+
+## Azure DevOps pipelines
+
+Sadly Azure DevOps don't auto create pipelines from the pipelines files that you have created in your repo.
+Instead you have to [manually](https://stackoverflow.com/questions/59067096/create-a-new-pipeline-from-existing-yml-file-in-the-repository-azure-pipelines) create them.
+
+Azure DevOps PR validation is rather different from how GitHub manages it.
+Instead of writing yaml to say what happens on a PR,
+you have to create a [branch policy](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops)
+to tell the pipeline to run.
