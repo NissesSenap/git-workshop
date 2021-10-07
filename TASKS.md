@@ -10,7 +10,7 @@ git config.user.name "First last name"
 ## part 1
 
 - Create a new repository in your Azure DevOps project
-- Create a small markdown file containing some text data
+- Create a small Markdown file containing some text data
 - Create a branch
 - Commit your changes
 - Push the changes to your remote repository
@@ -26,8 +26,8 @@ git config.user.name "First last name"
 
 - Check commit history/log
 - Show the last changes locally
-- Add a image to your markdown file, follow a similar workflow as in part 1
-  - Preview the markdownfile in your markdown reader.
+- Add a image to your Markdown file, follow a similar workflow as in part 1
+  - Preview the Markdown file in your Markdown reader.
   - Commit the image
 - Perform a change to the image,
   - git diff, what can you see?
