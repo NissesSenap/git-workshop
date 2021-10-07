@@ -40,3 +40,9 @@ git config.user.name "First last name"
 - Merge azure-pipelines.yml to main
 - Edit some file and create a PR, see that the our pipeline auto triggers
   - Don't forget to actually create the PR and not just push to a branch
+
+## Part 4 gitignore
+
+- Create a .gitignore file containing a filename called hello.md
+- create a file called hello.md
+- What do you see when writing `git status`
