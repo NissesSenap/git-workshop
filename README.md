@@ -120,3 +120,49 @@ Azure DevOps PR validation is rather different from how GitHub manages it.
 Instead of writing yaml to say what happens on a PR,
 you have to create a [branch policy](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops)
 to tell the pipeline to run.
+
+## GUI
+
+If you don't feel comfortable using the cli (Command Line Interface) there are multiple GUI (Graphical User Interfaces) to manage source code.
+
+One solution that have been gaining traction is to use [vscode](https://code.visualstudio.com/) to both program and mange git.
+If you want to go this route I recommend that you add the [gitlens extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) to vscode.
+
+To install it from vscode push `ctrl + p` and write the following.
+
+```vscode
+# gitlens
+ext install eamodio.gitlens
+```
+
+### vscode usage
+
+Before changing anything it mostly good to create a branch.
+
+![branch](/resources/branch.png)
+You are now ready to edit your files.
+
+In the picture below you can see that I have modified the content of a file and it hasn't been staged and thus not ready to be commited.
+This is the ecvivialent of `git status`
+
+![modified](/resources/modified.png)
+
+Push the + sign and next to to the `M` to stage the file.
+
+This will make your file staged.
+You are now ready to commit your change.
+This is the ecvivialent of `git add README.md`
+
+![staged](/resources/staged.png)
+
+So lets write our first commit message.
+This is the ecvivialent of `git commit -m "My first commit"`
+
+![commit](/resources/commit.png)
+
+To push your code to your remote repository you can do.
+This is the ecvivialent of `git push`
+
+![push](/resources/push.png)
+
+Now you should be able to view your pushed code in your remote location.
