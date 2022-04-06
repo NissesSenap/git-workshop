@@ -166,3 +166,18 @@ This is the ecvivialent of `git push`
 ![push](/resources/push.png)
 
 Now you should be able to view your pushed code in your remote location.
+
+### vscode extensions
+
+Other extensions that you might find useful.
+
+```vscode
+# markdown extension
+ext install yzhang.markdown-all-in-one
+# markdown lint
+ext install DavidAnson.vscode-markdownlint
+# code spell checker
+ext install streetsidesoftware.code-spell-checker
+# For my powershell friends there is also a powershell extension.
+ext install ms-vscode.PowerShell
+```
